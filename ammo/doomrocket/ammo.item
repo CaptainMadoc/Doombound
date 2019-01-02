@@ -1,0 +1,12 @@
+{
+	"itemName" : "doomrocketammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 50000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "doomrocket.png",
+	"description" : "test",
+	"shortdescription" : "Bullet",
+	"projectile" : "doomrocketproj",
+	"projectileConfig" : {"speed" : 70, "power" : 100}
+}

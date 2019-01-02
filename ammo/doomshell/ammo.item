@@ -1,0 +1,13 @@
+{
+	"itemName" : "doomshellammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 50000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "doomshell.png",
+	"description" : "test",
+	"shortdescription" : "Bullet",
+	"casingProjectile" : "doomshell_casing",
+	"projectile" : "doomshellproj",
+	"projectileConfig" : {"speed" : 100, "power" : 10}
+}

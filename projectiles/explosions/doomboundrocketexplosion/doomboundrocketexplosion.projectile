@@ -1,6 +1,6 @@
 {
-  "projectileName" : "regularexplosion2",
-  "image" : "regularexplosion2.png",
+  "projectileName" : "doomboundrocketexplosion",
+  "image" : "doomboundrocketexplosion.png",
   "animationCycle" : 0.2,
   "frameNumber" : 6,
   "speed" : 0,
