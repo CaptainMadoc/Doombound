@@ -1,0 +1,36 @@
+{
+    "objectName": "doomguncrafterstandard",
+
+    "price": 30,
+    "description": "A Table for crafting Weapons.",
+    "shortdescription": "^orange;Gun Crafter Standard^white;",
+
+    "race": "generic",
+    "category": "crafting",
+    
+
+    //dont mess anything here unless you know what are you doing
+    "colonyTags": [
+        "crafting"
+    ],
+    "rarity": "Rare",
+    "interactAction": "ScriptPane",
+    "interactData": "/guncrafters/standard/ui.config",
+    "printable": false,
+    "inventoryIcon": "icon.png",
+    "orientations": [
+        {
+            "dualImage": "object.png:<color>",
+            "imagePosition": [
+                -16,
+                0
+            ],
+            "frames": 1,
+            "animationCycle": 1,
+            "spaceScan": 0.1,
+            "anchors": [
+                "bottom"
+            ]
+        }
+    ]
+}

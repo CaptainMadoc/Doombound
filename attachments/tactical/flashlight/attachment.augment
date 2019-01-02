@@ -1,0 +1,21 @@
+{
+	"itemName" : "doomboundtacticalflashlight",
+	"rarity" : "common",
+	"shortdescription" : "Tactical Flashlight",
+	"category" : "Attachments | Tactical",
+
+	"price" : 0,
+	"attachment" : {
+		"offset" : [-1.875,-0.375],
+		"scale" : [0.25,0.25],
+		"image" : "/attachments/tactical/flashlight/flashlight.png",
+		"lightColor" : [255,255,255,128],
+		"script" : "/attachments/flashlight.lua"
+	},
+	"attachmentType" : "tactical",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "flashlight.png",
+	"description" : "",
+	"scripts" : ["/doombound/scripts/attach.lua"]
+}

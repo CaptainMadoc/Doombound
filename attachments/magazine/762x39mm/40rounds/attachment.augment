@@ -1,0 +1,25 @@
+{
+	"itemName" : "doomboundgb762x39mm40mag",
+	"rarity" : "common",
+	"shortdescription" : "40 Rounds Magazine",
+	"category" : "Attachments | 762x39mm Magazine",
+
+	"price" : 0,
+	"attachment" : {
+		"offset" : [-0.125,-1],
+		"scale" : [1,1],
+		"image" : "image.png",
+		"stats" : {
+			"maxMagazine" : 40
+		},
+		"script" : "/attachments/extendedMagazine.lua"
+	},
+
+	"attachmentType" : "magazine_762x39mm",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "image.png",
+	"description" : "",
+	"scripts" : ["/doombound/scripts/attach.lua"]
+}
+ 

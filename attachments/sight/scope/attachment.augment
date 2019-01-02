@@ -1,0 +1,23 @@
+{
+	"itemName" : "doomboundscope",
+	"rarity" : "common",
+	"category" : "Attachments | Sight",
+	"price" : 0,
+	"attachment" : {
+		"offset" : [-0.75,0],
+		"scale" : [1,1],
+		"image" : "image.png",
+		"stats" : {
+			"aimLookRatio" : 1
+		},
+		"script" : "/attachments/change_stats.lua"
+	},
+	"attachmentType" : "sight",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "image.png",
+	"description" : "",
+	"shortdescription" : "8x Scope",
+	"scripts" : ["/doombound/scripts/attach.lua"]
+}
+ 

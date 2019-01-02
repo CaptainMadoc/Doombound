@@ -1,0 +1,13 @@
+{
+	"itemName" : "doombulletammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 50000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "doombullet.png",
+	"description" : "test",
+	"shortdescription" : "Bullet",
+	"casingProjectile" : "doombullet_casing",
+	"projectile" : "doombulletproj",
+	"projectileConfig" : {"speed" : 100, "power" : 10}
+}

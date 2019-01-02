@@ -1,0 +1,8 @@
+{
+  "frames" : "image.png",
+  "variants" : 1,
+  "frameNumber" : 6,
+  "animationCycle" : 1,
+  "mode" : "EndAndDisappear",
+  "offset" : [0, 0]
+}

@@ -1,0 +1,25 @@
+{
+	"itemName" : "doomboundgbthompsonm1a1100mag",
+	"rarity" : "common",
+	"shortdescription" : "100 Rounds Magazine",
+	"category" : "Thompson M1A1 Magazine",
+
+	"price" : 0,
+	"attachment" : {
+		"offset" : [-0.125,-1.25],
+		"scale" : [1,1],
+		"image" : "image.png",
+		"stats" : {
+			"maxMagazine" : 100
+		},
+		"script" : "/attachments/extendedMagazine.lua"
+	},
+
+	"attachmentType" : "magazine_thompsonm1a1",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "image.png",
+	"description" : "",
+	"scripts" : ["/doombound/scripts/attach.lua"]
+}
+ 

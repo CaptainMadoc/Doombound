@@ -1,0 +1,23 @@
+{
+  "kind" : "doomvapor",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/fx/gbvapor/image.animation",
+    "looping" : false,
+    "size" : 0.1675,
+    "color" : [255,255,255,32],
+    "position" : [0, 0],
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
+    "fullbright" : false,
+    "initialVelocity" : [0.5, 2],
+    "finalVelocity" : [0.05, 0.05],
+    "approach" : [2, 0.5],
+    "angularVelocity" : 360,
+    "variance" : {
+      "angularVelocity" : -360
+    },
+    "timeToLive" : 0.016,
+    "layer" : "front"
+  }
+}

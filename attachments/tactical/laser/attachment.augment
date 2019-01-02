@@ -1,0 +1,21 @@
+{
+	"itemName" : "doomboundtacticallaser",
+	"rarity" : "common",
+	"shortdescription" : "Tactical Laser",
+	"category" : "Attachments | Tactical",
+
+	"price" : 0,
+	"attachment" : {
+		"offset" : [-1.875,-0.375],
+		"scale" : [0.25,0.25],
+		"image" : "/attachments/tactical/laser/laser.png",
+		"laserColor" : [255,64,64,255],
+		"script" : "/attachments/laser.lua"
+	},
+	"attachmentType" : "tactical",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "laser.png",
+	"description" : "",
+	"scripts" : ["/doombound/scripts/attach.lua"]
+}

@@ -1,0 +1,25 @@
+{
+	"itemName" : "doomboundverticalgrip",
+	"rarity" : "common",
+	"shortdescription" : "Vertical Grip",
+	"category" : "Attachments | Grip",
+
+	"price" : 0,
+	"attachment" : {
+		"offset" : [-0.125,-0.5],
+		"scale" : [1,1],
+		"image" : "image.png",
+		"stats" : {
+			"recoil" : 0.5 //dampens 50% of the recoil
+		},
+		"script" : "/attachments/ratio_stats.lua"
+	},
+	
+	"attachmentType" : "grip",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "image.png",
+	"description" : "",
+	"scripts" : ["/doombound/scripts/attach.lua"]
+}
+ 

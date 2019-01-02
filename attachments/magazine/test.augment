@@ -1,0 +1,25 @@
+{
+	"itemName" : "doomboundtestmag",
+	"rarity" : "common",
+	"shortdescription" : "Test Magazine",
+	"category" : "Attachments | Magazine",
+
+	"price" : 0,
+	"attachment" : {
+		"offset" : [-0.375,-1],
+		"scale" : [1,1],
+		"image" : "test.png",
+		"stats" : {
+			"maxMagazine" : 60
+		},
+		"script" : "/attachments/extendedMagazine.lua"
+	},
+
+	"attachmentType" : "magazine",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "test.png",
+	"description" : "",
+	"scripts" : ["/doombound/scripts/attach.lua"]
+}
+ 

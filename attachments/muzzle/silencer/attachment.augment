@@ -1,0 +1,24 @@
+{
+	"itemName" : "doomboundsilencer",
+	"rarity" : "common",
+	"category" : "Attachments | Silencer",
+	"price" : 0,
+	"attachment" : {
+		"offset" : [-0.0625,-0.125],
+		"scale" : [1,1],
+		"image" : "image.png",
+		"stats" : {
+			"fireSounds" : ["/guns/sounds/silencer.ogg"],
+			"muzzleFlash" : 0
+		},
+		"script" : "/attachments/change_stats.lua"
+	},
+	"attachmentType" : "muzzle",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "image.png",
+	"description" : "",
+	"shortdescription" : "Silencer",
+	"scripts" : ["/doombound/scripts/attach.lua"]
+}
+ 

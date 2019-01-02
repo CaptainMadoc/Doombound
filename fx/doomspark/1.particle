@@ -1,0 +1,19 @@
+{
+  "kind" : "doomspark1",
+  "definition" : {
+    "type" : "ember",
+    "size" : 1,
+    "color" : [253, 160, 57, 255],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.2,
+    "fullbright" : true,
+    "initialVelocity" : [5.0, 2.0],
+    "finalVelocity" : [0.0, 0.0],
+    "approach" : [0, 0],
+    "timeToLive" : 0.016,
+    "layer" : "middle",
+    "variance" : {
+      "initialVelocity" : [8.0, -8.0]
+    }
+  }
+}
