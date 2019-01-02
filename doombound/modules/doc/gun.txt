@@ -1,0 +1,22 @@
+float gun:rpm()
+Returns the calculated rpm for fire cooldown.
+
+float gun:inaccuracy()
+Returns max possible the angle spread -/+
+
+vec2 gun:calculateInAccuracy(vec2 Angle)
+Internal purpose for random angles for spawnProjectile
+returns vec2 angle
+
+vec2 gun:angle()
+Returns gun muzzle pointing vec2 angle
+
+vec2 gun:casingPosition()
+return world position where the casing should be spawned
+
+void gun:aimAt(vec2 position)
+Aim Lock at a position
+
+bool gun:canFire()
+Check if the weapon is fireable (ex. if chamber is loaded with a bullet)
+

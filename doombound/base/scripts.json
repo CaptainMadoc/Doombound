@@ -1,0 +1,28 @@
+[
+	"/doombound/modules/data.lua",
+	"/doombound/modules/timers.lua",
+	"/doombound/modules/customSounds.lua",
+	"/doombound/modules/requireUni.lua",
+
+	"/doombound/modules/camera.lua",
+	"/doombound/modules/aim.lua",
+
+	"/doombound/modules/portraitprocessor.lua",
+	"/doombound/modules/arms.lua",
+
+	"/doombound/modules/animation.lua",
+	"/doombound/modules/transforms.lua",
+
+	"/doombound/modules/magazine.lua",
+	"/doombound/modules/gun.lua",
+
+	"/doombound/modules/attachmentSystem.lua",
+	"/doombound/modules/flashlight.lua",
+	"/doombound/modules/laser.lua",
+	
+	"/doombound/modules/ui.lua",
+	"/doombound/modules/gun_ui.lua",
+	"/doombound/modules/crosshair_ui.lua",
+
+	"/doombound/modules/_GBDEBUG.lua"
+]

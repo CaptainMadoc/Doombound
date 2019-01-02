@@ -1,0 +1,152 @@
+{
+	"globalTagDefaults" : {
+		"R_a1" : "/assetmissing.png",
+		"R_a2" : "/assetmissing.png",
+		"R_af1" : "/assetmissing.png",
+		"R_af2" : "/assetmissing.png",
+		"R_hand" : "/assetmissing.png",
+		"R_handf" : "/assetmissing.png",
+		"L_a1" : "/assetmissing.png",
+		"L_a2" : "/assetmissing.png",
+		"L_af1" : "/assetmissing.png",
+		"L_af2" : "/assetmissing.png",
+		"L_hand" : "/assetmissing.png",
+		"L_handf" : "/assetmissing.png",
+		"selfimage" : "/assetmissing.png"
+	},
+	"animatedParts" : {
+		"parts" : {
+			//those are needed for the arm api
+			"R_arm1"	: {
+				"properties":{"zLevel" : 160,"centered" : false,"image" : "<R_a1>","offset" : [0.0, 0.0],"transformationGroups" : ["R_arm1", "R_offset", "global", "base"]},
+				"partStates":{"right" : {"front" : {"properties" : {"zLevel" : 160}},"back" : {"properties" : {"zLevel" : 5}}}}
+			},
+			"R_af1"	: {
+				"properties":{"zLevel" : 170,"centered" : false,"image" : "<R_af1>","offset" : [0.0, 0.0],"transformationGroups" : ["R_arm1", "R_offset", "global", "base"]},
+				"partStates":{"right" : {"front" : {"properties" : {"zLevel" : 170}},"back" : {"properties" : {"zLevel" : 6}}}}
+			},
+			"R_arm2"	: {
+				"properties":{"zLevel" : 140,"centered" : false,"image" : "<R_a2>","offset" : [0.0, 0.0],"transformationGroups" : ["R_arm2", "R_arm1", "R_offset", "global", "base"]},
+				"partStates":{"right" : {"front" : {"properties" : {"zLevel" : 140}},"back" : {"properties" : {"zLevel" : 3}}}}
+			},
+			"R_af2"		: {
+				"properties":{"zLevel":150,"centered":false,"image":"<R_af2>","offset":[0.0,0.0],"transformationGroups":["R_arm2","R_arm1","R_offset","global","base"]},
+				"partStates":{"right":{"front":{"properties":{"zLevel":150}},"back":{"properties":{"zLevel":4}}}}
+			},
+			"R_hand"	: {
+				"properties":{"zLevel":120,"centered":false,"image":"<R_hand>","offset":[0.0,0.0],"transformationGroups":["R_hand","R_arm2","R_arm1","R_offset","global","base"]},
+				"partStates":{"right":{"front":{"properties":{"zLevel":120}},"back":{"properties":{"zLevel":1}}}}
+			},
+			"R_handf"	: {
+				"properties":{"zLevel":130,"centered":false,"image":"<R_handf>","offset":[0.0,0.0],"transformationGroups":["R_hand","R_arm2","R_arm1","R_offset","global","base"]},
+				"partStates":{"right":{"front":{"properties":{"zLevel":130}},"back":{"properties":{"zLevel":2}}}}
+			},
+			"L_arm1"	: {
+				"properties":{"zLevel":5,"centered":false,"image":"<L_a1>","offset":[0.0,0.0],"transformationGroups":["L_arm1","L_offset","global","base"]},
+				"partStates":{"left":{"front":{"properties":{"zLevel":160}},"back":{"properties":{"zLevel":5}}}}
+			},
+			"L_af1"		: {
+				"properties":{"zLevel":6,"centered":false,"image":"<L_af1>","offset":[0.0,0.0],"transformationGroups":["L_arm1","L_offset","global","base"]},
+				"partStates":{"left":{"front":{"properties":{"zLevel":170}},"back":{"properties":{"zLevel":6}}}}
+			},
+			"L_arm2"	: {
+				"properties":{"zLevel":3,"centered":false,"image":"<L_a2>","offset":[0.0,0.0],"transformationGroups":["L_arm2","L_arm1","L_offset","global","base"]},
+				"partStates":{"left":{"front":{"properties":{"zLevel":140}},"back":{"properties":{"zLevel":3}}}}
+			},
+			"L_af2"		: {
+				"properties":{"zLevel":4,"centered":false,"image":"<L_af2>","offset":[0.0,0.0],"transformationGroups":["L_arm2","L_arm1","L_offset","global","base"]},
+				"partStates":{"left":{"front":{"properties":{"zLevel":150}},"back":{"properties":{"zLevel":4}}}}
+			},
+			"L_hand"	: {
+				"properties":{"zLevel":1,"centered":false,"image":"<L_hand>","offset":[0.0,0.0],"transformationGroups":["L_hand","L_arm2","L_arm1","L_offset","global","base"]},
+				"partStates":{"left":{"front":{"properties":{"zLevel":120}},"back":{"properties":{"zLevel":1}}}}
+			},
+			"L_handf"	: {
+				"properties":{"zLevel":2,"centered":false,"image":"<L_handf>","offset":[0.0,0.0],"transformationGroups":["L_hand","L_arm2","L_arm1","L_offset","global","base"]},
+				"partStates":{"left":{"front":{"properties":{"zLevel":130}},"back":{"properties":{"zLevel":2}}}}
+			}
+			//
+		},
+		"stateTypes" : {
+			"firing" : { //api can be used or overriden by other animationCustom guns
+				"default" : "off",
+				"states" : {
+					"on" : {
+						"frames" : 3,
+						"mode" : "transition",
+						"transition" : "off",
+						"cycle" : 0.1,
+						"properties" : {
+							"lightsOn" : ["muzzleFlash"]
+						}
+					},
+					"off" : {
+						"frames" : 1,
+						"mode" : "end",
+						"cycle" : 0.1,
+						"properties" : {
+							"lightsOff" : ["muzzleFlash"]
+						}
+					}
+				}
+			},
+			//arm api
+			"left" : {"default" : "back",
+				"states" : {
+					"back" : {"frames" : 1,"mode" : "end","cycle" : 0.1},
+					"front" : {"frames" : 1,"mode" : "end","cycle" : 0.1}
+				}
+			},
+			"right" : {"default" : "front",
+				"states" : {
+					"back" : {"frames" : 1,"mode" : "end","cycle" : 0.1},
+					"front" : {"frames" : 1,"mode" : "end","cycle" : 0.1}
+				}
+			}
+		}
+	},
+	"lights" : {
+		"muzzleFlash" : { //firing thing
+			"pointBeam" : 0,
+			"pointAngle" : 0,
+			"color" : [200, 200, 0],
+			"pointLight" : false,
+			"transformationGroups" : ["muzzleFlashLight"],
+			"active" : false,
+			"position" : [0, 0]
+		}
+	},
+	"particleEmitters" : {},
+	"sounds" : {
+		"dry" : [],
+		"fireSounds" : [],
+
+		//custom sounds for probably attachments purposes
+		"customSound_1" : [],
+		"customSound_2" : [],
+		"customSound_3" : [],
+		"customSound_4" : [],
+		"customSound_5" : [],
+		"customSound_6" : [],
+		"customSound_7" : [],
+		"customSound_8" : [],
+		"customSound_9" : [],
+		"customSound_10" : [],
+		"customSound_11" : [],
+		"customSound_12" : []
+	},
+	"transformationGroups" : {
+		"R_hand" 	: {"ignore" : true,"interpolated" : true},
+		"R_arm2" 	: {"ignore" : true,"interpolated" : true},
+		"R_offset" 	: {"ignore" : true,"interpolated" : true},
+		"R_arm1" 	: {"ignore" : true,"interpolated" : true},
+		"L_hand" 	: {"ignore" : true,"interpolated" : true},
+		"L_arm2" 	: {"ignore" : true,"interpolated" : true},
+		"L_offset" 	: {"ignore" : true,"interpolated" : true,"transform" : {"curve" : 1,"position" : [0.6875, 0]}},
+		"L_arm1" 	: {"ignore" : true,"interpolated" : true},
+
+		"global" 	: {"ignore" : true,"interpolated" : true},
+		"muzzleFlashLight" 	: {"ignore" : true,"interpolated" : true},
+		"base"		: {"interpolated" : true}
+	}
+}

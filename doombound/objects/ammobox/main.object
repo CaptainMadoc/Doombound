@@ -1,0 +1,31 @@
+{
+    "objectName": "gbammobox",
+
+    "price": 30,
+    "description": "Remaining dispenses: ^green;10",
+    "shortdescription": "^orange;Ammo Box^white;",
+
+    "race": "generic",
+    "category": "Ammo Dispenser",
+    "scripts" : ["main.lua"],
+    "scriptDelta" : 1,
+    "rarity": "uncommon",
+    "retainObjectParametersInItem" : true,
+    "printable": false,
+    "inventoryIcon": "object.png",
+    "orientations": [
+        {
+            "dualImage": "object.png:<color>",
+            "imagePosition": [
+                -8,
+                0
+            ],
+            "frames": 1,
+            "animationCycle": 1,
+            "spaceScan": 0.1,
+            "anchors": [
+                "bottom"
+            ]
+        }
+    ]
+}

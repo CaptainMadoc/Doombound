@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "goldbar", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "gbammobox",
+    "count" : 1
+  },
+  "duration" : 2.5,
+  "groups" : [ "plain", "all" ]
+}

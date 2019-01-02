@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "attachmentsremover",
+    "count" : 1
+  },
+  "duration" : 1,
+  "groups" : [ "plain", "all" ]
+}

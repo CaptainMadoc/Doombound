@@ -1,0 +1,12 @@
+{
+	"itemName" : "doomcellammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 50000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "doomcell.png",
+	"description" : "test",
+	"shortdescription" : "Cells",
+	"projectile" : "doomcellproj",
+	"projectileConfig" : {"speed" : 75, "power" : 25}
+}
