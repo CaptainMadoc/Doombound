@@ -12,7 +12,7 @@
       "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 0.85,
       "angleAdjust" : 0,
-      "fuzzAngle" : 5
+      "fuzzAngle" : 0
     },
     {
       "action" : "projectile",
@@ -20,7 +20,7 @@
       "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 0.9,
       "angleAdjust" : 0,
-      "fuzzAngle" : 5
+      "fuzzAngle" : 1
     },
     {
       "action" : "projectile",
@@ -28,7 +28,7 @@
       "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 0.95,
       "angleAdjust" : 0,
-      "fuzzAngle" : 5
+      "fuzzAngle" : 2
     },
     {
       "action" : "projectile",
@@ -36,7 +36,7 @@
       "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 1,
       "angleAdjust" : 0,
-      "fuzzAngle" : 5
+      "fuzzAngle" : 3
     },
     {
       "action" : "projectile",
@@ -44,7 +44,7 @@
       "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 1.05,
       "angleAdjust" : 0,
-      "fuzzAngle" : 5
+      "fuzzAngle" : 4
     },
     {
       "action" : "projectile",
@@ -60,7 +60,7 @@
       "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 1.15,
       "angleAdjust" : 0,
-      "fuzzAngle" : 5
+      "fuzzAngle" : 6
     },
     {
       "action" : "projectile",
@@ -68,7 +68,7 @@
       "inheritDamageFactor" : 1,
       "inheritSpeedFactor" : 1.20,
       "angleAdjust" : 0,
-      "fuzzAngle" : 5
+      "fuzzAngle" : 6
     }
   ]
 }

@@ -7,7 +7,7 @@
   "actionOnHit" : [
     {
       "action" : "config",
-      "file" : "/fx/gbbulletimpact/action.config"
+      "file" : "/fx/doomplasmaimpact/action.config"
     }
   ],
   "power" : 20.0
