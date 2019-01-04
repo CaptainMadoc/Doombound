@@ -1,0 +1,21 @@
+{
+  "projectileName" : "doomsupershell_casing",
+  "image" : "casing.png",
+  
+  "physics" : "grenade",
+  
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [ "/guns/sounds/casing1.wav","/guns/sounds/casing2.wav" ]
+    }
+  ],
+  "renderLayer" : "Player+1",
+  "timeToLive" : 1,
+  "bounces" : -1,
+  "speed" : 5,
+  "power" : 0.0,
+  "damageType" : "NoDamage"
+}
+
+

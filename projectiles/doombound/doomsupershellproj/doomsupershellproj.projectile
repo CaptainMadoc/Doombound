@@ -1,0 +1,260 @@
+{
+  "projectileName" : "doomsupershellproj",
+  "image" : "doomsupershellproj.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 0.01,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj1",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 0.95,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj2",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 0.96,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 19
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj3",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 0.97,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj4",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 0.98,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 17
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj5",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 0.99,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 16
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj6",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 15
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj7",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.01,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 14
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj8",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.02,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 13
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj9",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.03,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 12
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj10",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.04,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 11
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj11",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.05,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj12",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.06,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj13",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.07,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 9
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj14",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.08,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 9
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj15",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.09,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 8
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj16",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.10,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 8
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj17",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.11,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 7
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj18",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.12,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 7
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj19",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.13,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 6
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj20",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.14,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 6
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj21",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.15,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 5
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj22",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.16,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 5
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj23",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.17,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 4
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj24",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.18,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 4
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj25",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.19,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 3
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj26",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.20,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 3
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj27",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.21,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj28",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.22,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj29",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.23,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj30",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.24,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "doomsupershellproj31",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1.25,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 0
+    }
+  ]
+}
+
+

@@ -1,0 +1,13 @@
+{
+	"itemName" : "doomsupershellammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 50000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "doomsupershell.png",
+	"description" : "test",
+	"shortdescription" : "Super Shotgun Shells",
+	"casingProjectile" : "doomsupershell_casing",
+	"projectile" : "doomsupershellproj",
+	"projectileConfig" : {"speed" : 100, "power" : 10}
+}
