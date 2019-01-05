@@ -151,7 +151,7 @@ function magazine:getCompatibleAmmo()
 	return compat
 end
 
---Check if player has ammo for it
+--Check if player has ammo for it (obsolete) use ammo:inInventory()
 function magazine:playerHasAmmo()
 	for i,v in pairs(self:getCompatibleAmmo()) do
 		local finditem = {name = v, count = 1}

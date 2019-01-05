@@ -126,10 +126,10 @@
 		"sounds" : {
 			"cock" : ["/sfx/gun/reload/shotgun_reload_clip1.ogg"],
 			"cock2" : ["/sfx/gun/reload/shotgun_reload_clip2.ogg"],
-			"boltback" : ["sounds/boltback.ogg"],
+			"boltback" : ["/guns/doomshell/doomsshotgun/doomsshotgunclose.ogg"],
 			"boltforward" : ["sounds/boltforward.ogg"],
-			"magin" : ["sounds/magin.ogg"],
-			"magout" : ["sounds/magout.ogg"]
+			"magin" : ["/guns/doomshell/doomsshotgun/doomsshotgunload.ogg"],
+			"magout" : ["/guns/doomshell/doomsshotgun/doomsshotgunopen.ogg"]
 		},
 		"animatedParts" : {
 			"parts" : {
@@ -139,7 +139,7 @@
 						"centered" : false,
 						"image" : "<magazine>",
 						"offset" : [0.0, 0.0],
-						"casingpos" : [0.25,0.5],
+						"casing_pos" : [0.25,1],
 						"attachment_magazine" : [2.0, 1.0],
 						"attachment_magazine_point" : [2.125, 1.0],
 						"transformationGroups" : ["mag", "gun", "base"]
@@ -186,7 +186,7 @@
 				"muzzleFlash" : {
 					"properties" : {
 						"transformationGroups" : ["base"],
-						"offset" : [2.75, -0.375],
+						"offset" : [4.25, -0.75],
 						"zLevel" : 20,
 						"fullbright" : true,
 						"centered" : false
@@ -290,6 +290,66 @@
 						}
 					}
 				},
+				"smokingoverbarrel" : {
+					"default" : "off",
+					"states" : {
+						"on" : {
+							"frames" : 1,
+							"mode" : "end",
+							"cycle" : 0.5,
+							"properties" : {
+								"particleEmittersOn" : ["smokeo"]
+							}
+						},
+						"timer" : {
+							"frames" : 1,
+							"mode" : "transition",
+							"cycle" : 0.5,
+							"transition" : "off",
+							"properties" : {
+								"particleEmittersOn" : ["smokeo"]
+							}
+						},
+						"off" : {
+							"frames" : 1,
+							"mode" : "end",
+							"cycle" : 0.5,
+							"properties" : {
+								"particleEmittersOff" : ["smokeo"]
+							}
+						}
+					}
+				},
+				"smokingunderbarrel" : {
+					"default" : "off",
+					"states" : {
+						"on" : {
+							"frames" : 1,
+							"mode" : "end",
+							"cycle" : 0.5,
+							"properties" : {
+								"particleEmittersOn" : ["smokeu"]
+							}
+						},
+						"timer" : {
+							"frames" : 1,
+							"mode" : "transition",
+							"cycle" : 0.5,
+							"transition" : "off",
+							"properties" : {
+								"particleEmittersOn" : ["smokeu"]
+							}
+						},
+						"off" : {
+							"frames" : 1,
+							"mode" : "end",
+							"cycle" : 0.5,
+							"properties" : {
+								"particleEmittersOff" : ["smokeu"]
+							}
+						}
+					}
+				},
 				"vapor" : {
 					"default" : "off",
 					"states" : {
@@ -340,6 +400,22 @@
 					{ "particle" : "gbsmoke", "offset" : [1.625, 1.125]}
 				]
 			},
+			"smokeo" : {
+				"transformationGroups" : ["gun"],
+				"emissionRate" : 32.0,
+				"zLevel" : 100,
+				"particles" : [
+					{ "particle" : "gbsmoke", "offset" : [5.75, 1.125]}
+				]
+			},
+			"smokeu" : {
+				"transformationGroups" : ["gun"],
+				"emissionRate" : 32.0,
+				"zLevel" : 100,
+				"particles" : [
+					{ "particle" : "gbsmoke", "offset" : [5.75, 0.625]}
+				]
+			},
 			"vapor" : {
 				"transformationGroups" : ["gun"],
 				"emissionRate" : 128.0,
@@ -353,9 +429,19 @@
 				"emissionRate" : 32.0,
 				"zLevel" : 100,
 				"particles" : [
-					{ "particle" : "gbspark1", "offset" : [3.875, 1]},
-					{ "particle" : "gbspark1", "offset" : [3.875, 1]},
-					{ "particle" : "gbspark1", "offset" : [3.875, 1]}
+					{ "particle" : "gbspark1", "offset" : [5.75, 1.125]},
+					{ "particle" : "gbspark1", "offset" : [5.75, 1.125]},
+					{ "particle" : "gbspark1", "offset" : [5.75, 1.125]}
+				]
+			},
+			"spark2" : {
+				"transformationGroups" : ["gun"],
+				"emissionRate" : 32.0,
+				"zLevel" : 100,
+				"particles" : [
+					{ "particle" : "gbspark1", "offset" : [5.75, 0.625]},
+					{ "particle" : "gbspark1", "offset" : [5.75, 0.625]},
+					{ "particle" : "gbspark1", "offset" : [5.75, 0.625]}
 				]
 			}
 		},
@@ -397,13 +483,14 @@
 				"interpolated" : false,
 				"transform" : {
 					"rotationPoint" : [1.5625, 0.8125],
-					"position" : [-1.375, -0.2875]
+					"position" : [-1.5, -0.4125]
 				}
 			},
 			"lever" : {
 				"interpolated" : false,
 				"transform" : {
-					"rotationPoint" : [2.15625, 0.59375]
+					"rotationPoint" : [0.4375, 0.125],
+					"position" : [2,0.5]
 				}
 			},
 			"mag" : {

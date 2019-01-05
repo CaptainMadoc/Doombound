@@ -13,6 +13,7 @@
 	"/doombound/modules/animation.lua",
 	"/doombound/modules/transforms.lua",
 
+	"/doombound/modules/ammo.lua",
 	"/doombound/modules/magazine.lua",
 	"/doombound/modules/gun.lua",
 

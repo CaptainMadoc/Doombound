@@ -123,7 +123,7 @@ function default(val,defs)
 	if t ~= "nil" then
 		if t == "table" then
 			for i,v in pairs(defs) do
-				if not val[i] then
+				if type(val[i]) == "nil" then
 					val[i] = v
 				end
 			end

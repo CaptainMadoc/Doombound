@@ -81,7 +81,7 @@ function gun:init()
 
 	self.stats = default(config.getParameter("gunStats"), defaultStats)
 	self.settings = default(config.getParameter("gunSettings"), defaultSettings)
-	self.animations = config.getParameter("gunAnimations")
+	self.animations = config.getParameter("gunAnimations") or {}
 	
 	--real init
 	activeItem.setCursor(self.settings.cursor)

@@ -62,7 +62,7 @@ end
 --We made this so we dont deal with manually shoot + _dry animations
 function main:animate(type,noprefix)
     if not noprefix and 
-        (gun:chamberDry() and (not gun.hasToLoad and not data.bypassShellEject))
+        (gun:chamberDry() and (not gun.hasToLoad and not gun.settings.chamberEjection))
         then
 		animation:play(gun.animations[type.."_dry"] or gun.animations[type] or type.."_dry")
 	else
