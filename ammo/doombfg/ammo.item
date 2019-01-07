@@ -1,0 +1,12 @@
+{
+	"itemName" : "doombfgammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 50000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "doombfg.png",
+	"description" : "test",
+	"shortdescription" : "BFG Cells",
+	"projectile" : "doombfgproj",
+	"projectileConfig" : {"speed" : 120, "power" : 250}
+}
